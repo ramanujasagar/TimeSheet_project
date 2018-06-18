@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+  <reporter-output>
+    <line>
+      <![CDATA[PASS:Expected Page is Displayed]]>
+    </line>
+  </reporter-output>
+  <suite name="Suite" duration-ms="66160" started-at="2018-06-15T09:05:24Z" finished-at="2018-06-15T09:06:30Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="66160" started-at="2018-06-15T09:05:24Z" finished-at="2018-06-15T09:06:30Z">
+      <class name="script.InvalidLogin">
+        <test-method status="PASS" signature="OpenApplication()[pri:0, instance:script.InvalidLogin@467aecef]" name="OpenApplication" is-config="true" duration-ms="11218" started-at="2018-06-15T09:05:43Z" finished-at="2018-06-15T09:05:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- OpenApplication -->
+        <test-method status="PASS" signature="testInvalidLogin()[pri:2, instance:script.InvalidLogin@467aecef]" name="testInvalidLogin" duration-ms="10554" started-at="2018-06-15T09:05:54Z" finished-at="2018-06-15T09:06:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testInvalidLogin -->
+        <test-method status="PASS" signature="CloseApplication()[pri:0, instance:script.InvalidLogin@467aecef]" name="CloseApplication" is-config="true" duration-ms="625" started-at="2018-06-15T09:06:05Z" finished-at="2018-06-15T09:06:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CloseApplication -->
+      </class> <!-- script.InvalidLogin -->
+      <class name="script.CheckVersion">
+        <test-method status="PASS" signature="OpenApplication()[pri:0, instance:script.CheckVersion@3dfc5fb8]" name="OpenApplication" is-config="true" duration-ms="10899" started-at="2018-06-15T09:06:06Z" finished-at="2018-06-15T09:06:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- OpenApplication -->
+        <test-method status="PASS" signature="testVersion()[pri:3, instance:script.CheckVersion@3dfc5fb8]" name="testVersion" duration-ms="12582" started-at="2018-06-15T09:06:16Z" finished-at="2018-06-15T09:06:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testVersion -->
+        <test-method status="PASS" signature="CloseApplication()[pri:0, instance:script.CheckVersion@3dfc5fb8]" name="CloseApplication" is-config="true" duration-ms="653" started-at="2018-06-15T09:06:29Z" finished-at="2018-06-15T09:06:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CloseApplication -->
+      </class> <!-- script.CheckVersion -->
+      <class name="script.ValidLogin">
+        <test-method status="PASS" signature="OpenApplication()[pri:0, instance:script.ValidLogin@4d50efb8]" name="OpenApplication" is-config="true" duration-ms="11756" started-at="2018-06-15T09:05:24Z" finished-at="2018-06-15T09:05:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- OpenApplication -->
+        <test-method status="PASS" signature="testValidLogin()[pri:1, instance:script.ValidLogin@4d50efb8]" name="testValidLogin" duration-ms="7160" started-at="2018-06-15T09:05:35Z" finished-at="2018-06-15T09:05:42Z">
+          <reporter-output>
+            <line>
+              <![CDATA[PASS:Expected Page is Displayed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testValidLogin -->
+        <test-method status="PASS" signature="CloseApplication()[pri:0, instance:script.ValidLogin@4d50efb8]" name="CloseApplication" is-config="true" duration-ms="676" started-at="2018-06-15T09:05:42Z" finished-at="2018-06-15T09:05:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CloseApplication -->
+      </class> <!-- script.ValidLogin -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
